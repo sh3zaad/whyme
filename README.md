@@ -7,7 +7,7 @@ whyme is a Python library for sorting with a handful of recursive functions as w
 To install whyme:
 
 ```bash
-pip install git+https://github.com/your-name/your-repo.git
+pip install git+https://github.com/sh3zaad/whyme.git
 ```
 
 ## Usage
