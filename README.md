@@ -15,13 +15,13 @@ pip install git+https://github.com/sh3zaad/whyme.git
 ```python
 import whyme
 
-whyme.sum_array(array) # returns sum of elements of array
-whyme.fibonacci(n) # returns nth number in fibonacci sequence
-whyme.factorial(n) # returns n!
+whyme.sum_array([1,0,4,2]) # returns 7
+whyme.fibonacci(2) # returns 1
+whyme.factorial(5) # returns 120
 whyme.reverse('word') # returns 'drow'
-whyme.bubble_sort(array) # return ordered array
-whyme.merge_sort(array) # return ordered array
-whyme.quick_sort(array) # returns ordered array
+whyme.bubble_sort([9,4,6,12,2]) # returns [2, 4, 6, 9, 12]
+whyme.merge_sort([9,4,6,12,2]) # returns [2, 4, 6, 9, 12]
+whyme.quick_sort([9,4,6,12,2]) # returns [2, 4, 6, 9, 12]
 ```
 
 ## Contributing
